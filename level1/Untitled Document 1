@@ -1,0 +1,75 @@
+1) How to convert string value to integer ?
+
+String temp = "123";
+ - Integer.parseInt(temp)
+2) Output
+
+while(true)
+{
+System.out.println("Data");
+
+}   - inifinite
+
+3) Output
+
+if(0)
+{
+System.out.println("Value");
+
+}  - int cannot be converted to boolean
+  
+4) Declare a float variable and assign any value.
+float average = 123.5f
+
+5) Output:
+
+Integer temp;
+System.out.println(temp);  - temp might be inistialized
+
+6) List out data types and variable types
+ there are 2 data types
+ primitive & nonprimitive
+ variables - 3 types 
+ 1.local
+ 2.instance
+ 3.static
+7) Output
+int [ ] test = new int [5];
+test[0] = 1;
+test[1] = 2;
+test[2] = 3;
+test[3] = 4;
+test[4] = 5;
+int temp = 3;
+System.out.println(test[ temp + 2]) ;  - index out of bounds
+
+8) Output of matrix[3][3] and how to iterate multidimensional arrays?
+
+int [] [] matrix = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16} };
+
+9) Output of a, b, c, d?
+
+int a = 1;
+int b = 2;
+int c;
+int d;
+c = ++b;
+d = a++;
+c++;
+
+int a = 1;
+int b = 2;
+int c = 4;
+int d = 4;
+10) Output of days and month?
+
+int num = 39;
+int days = num % 20;
+int month = num / 20;
+
+int days = 39 %20;
+int month = 39%20;
+
+
+
+
